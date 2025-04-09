@@ -92,3 +92,12 @@ header .row {
 .header__img {
     max-width: 512px
 }
+.header__description {
+    width: 41.667%;
+}
+.header__illustration {
+    width: calc(100% - 41.667%)
+}
+img {
+    max-width: 100%;
+}
