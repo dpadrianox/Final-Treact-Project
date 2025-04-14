@@ -272,7 +272,8 @@ header .row {
     max-width: 576px;
     margin-right: 64px;
 }
-#quality .section__title {
+#quality .section__title,
+#values .section__title {
     line-height: 1.25;
 }
 #quality .btn {
@@ -337,4 +338,26 @@ header .row {
     font-size: 14px;
     line-height: 2;
     margin-top: 12px;
+}
+
+/* VALUES */
+
+#values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.values__description {
+    padding: 32px 64px 32px 0;
+}
+#values .section__title {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.values__list {
+    display: flex;
+}
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
 }
