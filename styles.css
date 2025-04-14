@@ -59,7 +59,7 @@ p {
 }
 .section__title {
     margin: 16px 0;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 900;
     color: rgb(36, 62, 99);
     line-height: 1.5;
@@ -322,7 +322,7 @@ header .row {
 .step__description {
     display: flex;
     flex-direction: column;
-    max-width: 576px;
+    max-width: 320px;
     margin-left: 24px;
 }
 .step__title {
