@@ -226,6 +226,11 @@ header .row {
     flex-direction: column;
     align-items: center;
 }
+#features .section__title,
+#pricing .section__title {
+    text-align: center;
+}
+
 #features .section__para {
     text-align: center;
     max-width: 576px;
@@ -441,3 +446,32 @@ header .row {
 #values .btn {
     margin-top: 48px;
 }
+
+/* PRICING */
+
+#pricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pricing .section__para {
+    max-width: 576px;
+    text-align: center;
+}
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+/* width: 100%;
+    max-width: 384px;
+    margin: 64px 32px 0 0;
+    padding-top: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    position: relative;
+    z-index: 100;
+    background: #fff; */
