@@ -212,6 +212,15 @@ header .row {
 #features {
     position: relative;
 }
+.features__blob {
+    transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 16rem;
+    opacity: 0.25;
+    padding: 16px;
+}
 #features .row__narrow {
     display: flex;
     flex-direction: column;
@@ -285,9 +294,23 @@ header .row {
     position: relative;
     margin: 0 56px;
     z-index: 2;
+    display: flex;
 }
 .quality__img {
     z-index: 1;
+}
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
 }
 
 /* STEPS */
@@ -308,6 +331,21 @@ header .row {
 .steps__img--wrapper {
     display: flex;
     position: relative;
+}
+.steps__img {
+    z-index: 2;
+}
+.steps__grid {
+    position: absolute;
+    opacity: 0.15;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    fill: rgba(100, 21, 255);
+    z-index: 1;
 }
 .step {
     display: flex;
