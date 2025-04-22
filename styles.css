@@ -1042,6 +1042,9 @@ header .row {
 #pricing .section__title {
     font-size: 36px;
 }
+.section__title {
+    font-size: 36px;
+}
 .section__para {
     font-size: 16px;
 }
@@ -1055,7 +1058,7 @@ header .row {
     margin-right: 0px;
     padding-right: 48px;
 }
-values .section__para {
+#values .section__para {
     font-size: 16px;
 }
 .values__list {
@@ -1111,6 +1114,44 @@ footer {
     width: auto;
     max-width: 384px;
 }
+#quality .row {
+    flex-direction: column-reverse;
+}
+.quality__description,
+.quality__img--wrapper,
+.steps__img--wrapper,
+.steps__description {
+    width: 100%;
+    max-width: 448px;
+}
+.quality__description {
+    padding: 0;
+    margin-top: 64px;
+    text-align: center;
+}
+#steps .row {
+    flex-direction: column;
+    align-items: center;
+}
+.step {
+    flex-direction: column;
+    align-items: center;
+}
+.step__description {
+    margin-top: 12px;
+    margin-left: 0px;
+}
+.step__title {
+
+}
+}
+
+
+
+
+
+
+
 
 
 }
