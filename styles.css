@@ -1088,6 +1088,12 @@ footer {
     padding: 32px 8px;
     margin: 0 16px;
   }
+  .feature__title {
+    line-height: 1;
+  }
+  .feature__para {
+    max-width: none;
+  }
   .quality__description {
     margin-right: 0px;
     padding-right: 48px;
@@ -1260,5 +1266,22 @@ footer {
     align-items: center;
     text-align: center;
 }
-
+.feature__text {
+    margin-left: 0px;
+    margin-top: 16px;
+}
+.feature__title {
+    letter-spacing: 0.025em;
+    line-height: 1;;
+}
+.feature__para {
+    margin-top: 4px;
+    line-height: 2;
+}
+.section__title {
+    font-size: 30px
+}
+.btn {
+    line-height: 1.5;
+}
 }
