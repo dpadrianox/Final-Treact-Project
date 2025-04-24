@@ -1278,10 +1278,17 @@ footer {
     margin-top: 4px;
     line-height: 2;
 }
+#steps .section__title {
+    margin: 16px 0 0 0;;
+}
 .section__title {
-    font-size: 30px
+    font-size: 30px;
+    line-height: 1.25;
 }
 .btn {
     line-height: 1.5;
+}
+.steps__list {
+    margin-top: 48px;
 }
 }
