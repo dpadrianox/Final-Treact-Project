@@ -1258,7 +1258,8 @@ footer {
     font-size: 14px;
     letter-spacing: 0.05em;
 }
-#features .section__title {
+#features .section__title,
+#pricing .section__title {
     font-size: 36px;
 }
 .feature__row {
@@ -1290,5 +1291,59 @@ footer {
 }
 .steps__list {
     margin-top: 48px;
+}
+.plan__price {
+    font-size: 36px;
+}
+.plan__bottom {
+    padding: 32px 48px;
+}
+.testimonial__bottom {
+    flex-direction: column;
+    align-items: center;
+    padding: 4px
+}
+.testimonial__profile {
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial__buttons {
+    margin-top: 32px;
+}
+.start__container {
+    padding: 80px 0;
+}
+.start__title {
+    font-size: 24px;
+}
+.start__buttons {
+    flex-direction: column;
+}
+.start__button {
+    font-size: 14px;
+    padding: 12px 24px;
+}
+.start__button:nth-child(1) {
+    margin-right: 0;;
+}
+.start__button:nth-child(2) {
+    margin-top: 16px;
+}
+main {
+    margin-bottom: 80px;
+}
+.footer__columns {
+    justify-content: center;
+}
+.footer__column {
+    width: auto;
+    padding: 0 16px;
+    text-align: center;
+    align-items: center;
+}
+.footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
 }
 }
